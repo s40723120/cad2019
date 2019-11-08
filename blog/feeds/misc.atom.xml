@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cad2019 40723120 - Misc</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2019-11-08T15:00:00+08:00</updated><entry><title>2019Fall cad 課程</title><link href=".%5C2019-Fall-Win10-1903.html" rel="alternate"></link><published>2019-11-08T15:00:00+08:00</published><updated>2019-11-08T15:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2019-11-08:.\2019-Fall-Win10-1903.html</id><summary type="html">&lt;p&gt;2019 Fall 一開始, 1903版的Windows10就大舉更新,除了逐步去掉先前許多舊版的設定視窗,也將系統的指令搜尋與App應用程式進行綁定,許多採用可攜設定的程式執行流程,隨著更新進程的推展,必須因應修改才可以正常運作.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2019 Fall 一開始, 1903版的Windows10就大舉更新,除了逐步去掉先前許多舊版的設定視窗,也將系統的指令搜尋與App應用程式進行綁定,許多採用可攜設定的程式執行流程,隨著更新進程的推展,必須因應修改才可以正常運作.&lt;/p&gt;
+
+
+&lt;h2&gt;期中報告影片&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RMURyc-nfTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;期中報告內容&lt;/h2&gt;
+&lt;p&gt;Week2~Week5
+W2:建立個人倉儲cad2019及進行網站編譯
+W3:根據Solvespace編譯引導，進行編譯後並啟動solvespcae
+W4:進行網站更新及拍攝操作影片(上字幕.加浮水印)
+W5:學員互評及自評，solvespcae基本圖面繪製及組裝
+Week6~Week9
+W6:
+任務一:參數化零組件繪製
+任務二:網際 V-rep 模型控制
+任務三:新增啟動與停止
+W7:
+任務一:Solvespace 編譯-加入學號
+任務二:Solvespace 參數繪圖驗證
+W8:
+任務一:啟用CMSiMDE中的網誌系統
+任務二:以ssh對Github連線
+任務三:導入Webots&lt;/p&gt;</content><category term="2019FallCP"></category></entry></feed>

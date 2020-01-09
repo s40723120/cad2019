@@ -33,9 +33,6 @@
 <v t="leo.20191108171331.1"><vh>w8</vh>
 <v t="leo.20191108171331.2"><vh>導入數學符號與方程式</vh></v>
 </v>
-<v t="leo.20191108171328.1"><vh>w9</vh>
-<v t="leo.20191108171328.2"><vh>導入數學符號與方程式</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -46,16 +43,15 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CAD2019 40723120
+<t tx="leo.20180902120523.10">## 40723120
 
+### 虎尾科技大學機械設計工程系
 
 &lt;small&gt;
-Created by 40723120
+Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[個人倉儲](https://github.com/s40723120/cad2019)
-[個人網站](https://s40723120.github.io/cad2019/content/index.html)
-[個人網誌](https://s40723120.github.io/cad2019/blog/index.html)
+[CMSimfly 網誌](./../blog/index.html)
 
 
 </t>
@@ -67,27 +63,35 @@ Created by 40723120
 
 
 						
+&lt;section&gt;
 </t>
-<t tx="leo.20180902120523.12"># WEEK2~WEEK5
+<t tx="leo.20180902120523.12"># 投影片快捷鍵
 
-* W2:建立個人倉儲cad2019及進行網站編譯
-* W3:根據Solvespace編譯引導，進行編譯後並啟動solvespcae
-* W4:進行網站更新及拍攝操作影片
-* W5:學員互評及自評,solvespcae基本圖面繪製及組裝</t>
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
 <t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20180902120523.14"># WEEK6
 
-* 任務一:參數化零組件繪製
-* 任務二:網際 V-rep 模型控制
-* 任務三:新增啟動與停止按鈕
 
 						
+</t>
+<t tx="leo.20180902120523.14">&lt;!-- 請注意, @others 不可以內縮 --&gt;
+# 數學符號與方程式
+
+Inline math equations go in like so: $\omega = d\phi / dt$. Display
+math should get its own line and be put in in double-dollarsigns:
+
+$$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -265,29 +269,37 @@ vertical: body pane on the botton</t>
     &lt;/script&gt;
 &lt;/section&gt;
 
-</t>
-<t tx="leo.20191108171241.2"># WEEK7
 
-* Solvespace 編譯-加入學號
-* Solvespace 參數繪圖驗證
-[SOLVESPACE繪圖影片](https://www.youtube.com/watch?v=KPk51D7cIiA)
 
 						
 </t>
-<t tx="leo.20191108171328.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
+<t tx="leo.20191108171241.2">&lt;!-- 請注意, @others 不可以內縮 --&gt;
+## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
 
-</t>
-<t tx="leo.20191108171328.2"># WEEK9
-
-期中報告影片
-
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RMURyc-nfTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-						
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
 </t>
 <t tx="leo.20191108171331.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -296,13 +308,11 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20191108171331.2"># WEEK8
+<t tx="leo.20191108171331.2">## 使用 iframe 導入影片
 
-* 任務一:啟用CMSiMDE中的網誌系統
-* 任務二:以ssh對Github連線
-* 任務三:導入Webots
+### 導入影片 template
 
-						
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>

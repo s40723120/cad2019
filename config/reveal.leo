@@ -21,20 +21,20 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200110040622.1"><vh>W18-4</vh>
+<v t="leo.20200110040622.2"><vh>導入數學符號與方程式</vh></v>
+</v>
 <v t="leo.20200110013124.1"><vh>W18</vh>
 <v t="leo.20200110013124.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180902120523.11"><vh>W2~W5</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20200110035034.1"><vh>W18-2</vh>
+<v t="leo.20200110035034.2"><vh>導入數學符號與方程式</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>w6</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh></v>
+<v t="leo.20200110042334.1"><vh>W18-5</vh>
+<v t="leo.20200110042334.2"><vh>導入數學符號與方程式</vh></v>
 </v>
-<v t="leo.20191108171241.1"><vh>w7</vh>
-<v t="leo.20191108171241.2"><vh>導入數學符號與方程式</vh></v>
-</v>
-<v t="leo.20191108171331.1"><vh>w8</vh>
-<v t="leo.20191108171331.2"><vh>導入數學符號與方程式</vh></v>
+<v t="leo.20200110035551.1"><vh>W18-3</vh>
+<v t="leo.20200110035551.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 </v>
 </v>
@@ -51,50 +51,12 @@
 ### 虎尾科技大學機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+[40723120](https://s40723120.github.io/cad2019/content/index.html)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
-
-
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-&lt;section&gt;
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
 
 
 
-						
-</t>
-<t tx="leo.20180902120523.14">&lt;!-- 請注意, @others 不可以內縮 --&gt;
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -266,57 +228,6 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20191108171241.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20191108171241.2">&lt;!-- 請注意, @others 不可以內縮 --&gt;
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20191108171331.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20191108171331.2">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20200110013124.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -324,11 +235,112 @@ make.start()
 &lt;/section&gt;
 
 
+
 						
-&lt;section&gt;
+
 </t>
 <t tx="leo.20200110013124.2"># W18期末簡報
 
+solvespace簡易越野車繪製
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/z128baYav54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx="leo.20200110035034.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+&lt;section&gt;</t>
+<t tx="leo.20200110035034.2"># W18期末簡報
+
+V-REP越野車動態模擬
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/gpfi2bLpa6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx="leo.20200110035551.1">&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+
+						
+&lt;section&gt;</t>
+<t tx="leo.20200110035551.2"># W18期末簡報
+
+V-REP雙輪車模擬控制
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yjKssakFDu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20200110040622.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section&gt;</t>
+<t tx="leo.20200110040622.2"># W18期末簡報
+
+‧本學期上課內容
+
+編譯slovespace
+
+使用slovespace軟體繪圖
+
+V-REP雙輪車控制
+
+solvespace檔案匯入V-REP
+
+V-REP設定物件參數
+
+物件匯入webots設定模擬環境
+
+
+
+</t>
+<t tx="leo.20200110042334.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+&lt;section&gt;</t>
+<t tx="leo.20200110042334.2"># W18期末簡報
+
+W17小組分配工作
+
+[教科書翻譯](https://s40723120.github.io/cad2019/content/W17%E7%BF%BB%E8%AD%AF.html)
+
+[原文](http://www.coppeliarobotics.com/helpFiles/en/buildingAModelTutorial.htm)
+
+小組工作
+
+[繪圖](https://s40723148.github.io/cad2019ag1/content/%E7%B9%AA%E5%9C%96%E8%AA%8D%E8%AD%89.html)
 
 
 

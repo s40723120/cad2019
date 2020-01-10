@@ -30,11 +30,11 @@
 <v t="leo.20200110035034.1"><vh>W18-2</vh>
 <v t="leo.20200110035034.2"><vh>導入數學符號與方程式</vh></v>
 </v>
-<v t="leo.20200110042334.1"><vh>W18-5</vh>
-<v t="leo.20200110042334.2"><vh>導入數學符號與方程式</vh></v>
-</v>
 <v t="leo.20200110035551.1"><vh>W18-3</vh>
 <v t="leo.20200110035551.2"><vh>導入數學符號與方程式</vh></v>
+</v>
+<v t="leo.20200110042334.1"><vh>W18-5</vh>
+<v t="leo.20200110042334.2"><vh>導入數學符號與方程式</vh></v>
 </v>
 </v>
 </v>
@@ -271,19 +271,12 @@ V-REP越野車動態模擬
 
 
 </t>
-<t tx="leo.20200110035551.1">&lt;section&gt;
-&lt;section data-markdown&gt;
+<t tx="leo.20200110035551.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
-
-
-
-
-						
-&lt;section&gt;</t>
+</t>
 <t tx="leo.20200110035551.2"># W18期末簡報
 
 V-REP雙輪車模擬控制
@@ -298,8 +291,7 @@ V-REP雙輪車模擬控制
 &lt;/section&gt;
 
 
-						
-&lt;section&gt;</t>
+</t>
 <t tx="leo.20200110040622.2"># W18期末簡報
 
 ‧本學期上課內容
@@ -326,10 +318,7 @@ V-REP設定物件參數
 &lt;/section&gt;
 
 
-
-
-						
-&lt;section&gt;</t>
+</t>
 <t tx="leo.20200110042334.2"># W18期末簡報
 
 W17小組分配工作
